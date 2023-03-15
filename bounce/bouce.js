@@ -5,28 +5,28 @@ const image4 = document.getElementById("nathan");
 const image5 = document.getElementById("simon");
 let x1 = Math.floor(Math.random() * (800 - 1)),
     y1 = Math.floor(Math.random() * (500 - 1)),
-    dx1 = 5,
-    dy1 = 3,
+    dx1 = Math.floor(Math.random() * (-5 - 5)),
+    dy1 = Math.floor(Math.random() * (-5 - 5)),
 
     x2 = Math.floor(Math.random() * (900 - 1)),
     y2 = Math.floor(Math.random() * (500 - 1)),
-    dx2 = -4,
-    dy2 = 2,
+    dx2 = Math.floor(Math.random() * (-5 - 5)),
+    dy2 = Math.floor(Math.random() * (-5 - 5)),
 
     x3 = Math.floor(Math.random() * (900 - 1)),
     y3 = Math.floor(Math.random() * (500 - 1)),
-    dx3 = 5,
-    dy3 = 3,
+    dx3 = Math.floor(Math.random() * (-5 - 5)),
+    dy3 = Math.floor(Math.random() * (-5 - 5)),
 
     x4 = Math.floor(Math.random() * (900 - 1)),
     y4 = Math.floor(Math.random() * (500 - 1)),
-    dx4 = 5,
-    dy4 = 3,
+    dx4 = Math.floor(Math.random() * (-5 - 5)),
+    dy4 = Math.floor(Math.random() * (-5 - 5)),
 
     x5 = Math.floor(Math.random() * (900 - 1)),
     y5 = Math.floor(Math.random() * (500 - 1)),
-    dx5 = 5,
-    dy5 = 3,
+    dx5 = Math.floor(Math.random() * (-5 - 5)),
+    dy5 = Math.floor(Math.random() * (-5 - 5)),
 
     w = window.innerWidth,
     h = window.innerHeight;
