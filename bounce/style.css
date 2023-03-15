@@ -1,5 +1,3 @@
-#myImage1, #myImage2 {
+img {
     position: absolute;
-    border: 10px;
-    background-color: black;
-  }
+}
