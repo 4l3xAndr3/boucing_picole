@@ -1,0 +1,5 @@
+#myImage1, #myImage2 {
+    position: absolute;
+    border: 10px;
+    background-color: black;
+  }
